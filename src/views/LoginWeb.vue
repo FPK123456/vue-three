@@ -16,7 +16,7 @@
 
     <link
       rel="stylesheet"
-      href="./css/common.scss"
+      href="./scss/common.scss"
       media="all"
       onload="this.media='all'"
     >

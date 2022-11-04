@@ -1,3 +1,24 @@
+/** @format */
+/** 引入阿里动态矢量图
+* 来源：https://www.iconfont.cn/manage/index?spm=a313x.7781069.1998910419.23&manage_type=myprojects&projectId=2623699&keyword=&project_type=&page=
+*/
+
+/* CDN 服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+@font-face {
+  font-family: 'iconfont';  /* Project id 2623699 */
+  src: url('//at.alicdn.com/t/c/font_2623699_vfasyd9pya.woff2?t=1666941257128') format('woff2'),
+       url('//at.alicdn.com/t/c/font_2623699_vfasyd9pya.woff?t=1666941257128') format('woff'),
+       url('//at.alicdn.com/t/c/font_2623699_vfasyd9pya.ttf?t=1666941257128') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 html,
 body,
 div,
@@ -98,6 +119,7 @@ section {
 body {
   line-height: 1;
   height: 100%;
+  font-family: "Helvetica Neue",Helvetica,"PingFang SC","Microsoft YaHei",Tahoma,Arial;
 }
 
 blockquote,
