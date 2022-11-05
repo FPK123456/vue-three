@@ -16,7 +16,7 @@
 
     <link
       rel="stylesheet"
-      href="./scss/common.scss"
+      href="./css/common.scss"
       media="all"
       onload="this.media='all'"
     >
@@ -153,6 +153,7 @@
                               v-model="loginForm.captcha"
                               placeholder="请输入验证码"
                               class="input-with-select"
+                              @keyup.enter="onSubmit"
                             >
                               <template #prepend>
                                 <el-icon>
@@ -260,7 +261,7 @@ const onSubmit = () => {
           localStorage.setItem('username', res.data.username)
           localStorage.setItem('userid', res.data.userId)
           ElMessage.success(res.msg)
-          router.push('/home')
+          router.push('/')
         } else {
           ElMessage.error(res.msg)
         }

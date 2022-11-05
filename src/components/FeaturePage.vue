@@ -7,7 +7,9 @@
     </div>
     <div class="tab-top">
       <div class="tab-list" v-for="(value, key) in navTopData.array" :key="key">
-        <span @click.stop="goToPlatForm(value.tagName)">{{ value.navName }}</span>
+        <span @click.stop="goToPlatForm(value.tagName)">{{
+          value.navName
+        }}</span>
       </div>
     </div>
   </div>
@@ -77,6 +79,7 @@ export default {
   position: relative;
   background-color: currentcolor;
   height: 80px;
+  min-width: 1100px;
   cursor: pointer;
 }
 .left-feature {
