@@ -16,7 +16,7 @@
           <span>接口自动化</span>
         </template>
         <!-- elementPlus 子路由配置 -->
-        <el-menu-item index="/cases">用例管理</el-menu-item>
+        <el-menu-item index="/cases">用例管理12</el-menu-item>
         <el-menu-item index="/reports">测试报告</el-menu-item>
 
       </el-sub-menu>
